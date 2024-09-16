@@ -142,23 +142,6 @@ The following npm scripts are available in the project:
 
   Runs both backend and frontend using the `concurrently` package.
 
-## Folder Structure
-
-```bash
-├── client               # Frontend code (React app)
-│   ├── public
-│   └── src
-│       ├── components   # React components
-│       ├── pages        # Different page components (e.g., Home, Blog, Login)
-│       ├── App.js
-│       └── index.js
-├── server.js            # Entry point for the Node.js server
-├── models               # MongoDB data models (e.g., User, BlogPost)
-├── routes               # Express routes for handling requests
-├── .env                 # Environment variables
-├── .gitignore           # Ignore node_modules, .env, etc.
-└── package.json         # Dependencies and npm scripts
-```
 
 ## Dependencies
 
